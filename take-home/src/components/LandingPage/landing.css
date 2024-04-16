@@ -1,0 +1,143 @@
+.container {
+    padding: 20px;
+  }
+  
+  .homepage {
+    background: #252836;
+    height: 100vh;
+    overflow: auto;
+  }
+  .pagination {
+    justify-content: flex-end;
+    padding: 25px;
+  }
+  .pagination > nav {
+    background-color: #393c49;
+  }
+  .pagination > nav > ul > li > button {
+    border: 1px solid #393c49;
+    color: white;
+  }
+  .pagination > nav > ul > li {
+    width: 50px;
+  }
+  
+  .SearchField {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  
+  .imagepokemon {
+    width: 60%;
+    margin: auto;
+  }
+  .cartbutton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0px;
+    background: rgba(255, 255, 255, 0.08) !important;
+    border-radius: 8px !important;
+    color: #fff !important;
+    margin-top: 20px !important;
+  }
+  .pokemonimage {
+    margin-top: 5% !important;
+    position: relative;
+    height: auto;
+  }
+  .choosecard {
+    font-family: "Poppins";
+    color: #fff;
+    font-family: "Poppins";
+    text-align: left;
+  }
+  .Selectdrop {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    position: static;
+    width: 82px;
+    height: 36px;
+    left: 0px;
+    top: 0px;
+    background: #1f1d2b;
+    border: 1px solid #393c49;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: Poppins Latin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+  
+    color: #ffffff;
+  }
+  /* .imagebase{
+    min-height:100px;
+    margin:auto !important;
+  background: #1F1D2B;
+  border-radius: 16px 16px 0px 0px;
+  } */
+  /* .pokestyle{
+      position: absolute;
+      top: -121px;
+      left: 0px;
+      right: 0px; 
+  } */
+  /* .imagepokemon {
+      width: 70%;
+      margin: auto;
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+      top: -54%;
+      text-align: center;
+  
+  } */
+  .home {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    margin-bottom: 10px;
+  }
+  
+  .close {
+    background: #ea7c69;
+    box-shadow: 0px 8px 24px rgba(234, 124, 105, 0.32);
+    border-radius: 8px;
+    width: 48px;
+    height: 48px;
+    float: right;
+  }
+  .cartmain {
+    background: #1f1d2b;
+    border-radius: 8px;
+    min-height: 100vh;
+  }
+  .MuiList-padding {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+  .cartnew {
+    font-family: Poppins Latin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 140%;
+    color: #fff;
+  }
+  .cartheader {
+    display: inline;
+    font-family: Poppins Latin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #fff;
+  }
+  
