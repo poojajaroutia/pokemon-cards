@@ -1,0 +1,122 @@
+.drawer-container {
+}
+.drawer-container .MuiPaper-root {
+  background-color: #252836;
+  width: 396px !important;
+  color: white !important;
+}
+.left-pane {
+  justify-content: flex-start;
+  color: white;
+}
+.right-pane {
+  justify-content: flex-end;
+  height: 50px;
+}
+.cart-container {
+  padding: 24px;
+}
+.cart-label {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+}
+.clear-button {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: #abbbc2;
+  cursor: pointer;
+}
+.cross-button {
+  position: relative;
+  bottom: 15px;
+  left: 5px;
+  cursor: pointer;
+}
+.label-heading {
+}
+
+.holder {
+  display: flex;
+  width: 100%;
+  padding-top: 5px;
+}
+.start {
+  width: 18%;
+  text-align: left;
+}
+.mid {
+  width: 58%;
+}
+.mid > div {
+  padding: 2px;
+}
+.end {
+  width: 18%;
+  text-align: right;
+}
+.start > img {
+  width: 44px;
+  height: 60px;
+}
+.total-price {
+  color: #abbbc2 !important;
+  font-size: 12px;
+}
+.item-count {
+}
+.change-button > div {
+  margin-top: 16px;
+  text-align: center;
+}
+.change-button {
+  cursor: pointer;
+}
+.change-button {
+  height: 55px;
+  background-color: rgba(255, 255, 255, 0.08);
+  margin: 3px !important;
+  border-radius: 8px;
+}
+.upper-holder {
+  margin-left: 6px;
+  padding-top: 20px;
+}
+.cart-items {
+  overflow-y: auto;
+}
+
+.total-item-count {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: white !important;
+  text-align: right;
+}
+.amount-price-set {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 130%;
+  width: 100%;
+  padding-top: 15px;
+  color: #abbbc2;
+}
+
+.payment-button > button {
+  margin: auto;
+  padding-top: 13px;
+  text-transform: none !important;
+  color: white;
+} 
+
+.payment-button {
+  margin-top: 15px;
+  border-radius: 8px;
+  text-align: center;
+  width: 100%;
+  height: 48px;
+  background-color: #ea7c69 !important;
+}
