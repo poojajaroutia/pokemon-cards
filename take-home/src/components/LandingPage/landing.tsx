@@ -1,4 +1,6 @@
 import "./landing.css";
+// import img from "../components/images/pokemon.jpg";
+
 import * as React from "react";
 import {
   Grid,
@@ -13,6 +15,7 @@ import {
   updatePageNumber,
 } from "../../modules/redux-store/action";
 import { PAGE_SIZE } from "../../modules/constants";
+// import { Pokemon, SearchCriteria, SearchType } from "../modules/model";
 import { useDispatch, useSelector } from "react-redux";
 import {
   searchCriteriaSelector,
@@ -57,6 +60,12 @@ const Landing = () => {
             }}
           />
         </Grid>
+        <Cart
+          show={showDrawer}
+          toggleHandler={() => {
+            setShowDrawer(!showDrawer);
+          }}
+        />
       </Grid>
     </Grid>
   );
