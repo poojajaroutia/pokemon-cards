@@ -47,6 +47,16 @@ const Landing = () => {
       <Grid container item xs={11} style={{ margin: "auto" }}>
         <NavBar toggleDrawer={() => setShowDrawer(!showDrawer)} />
         <Body />
+        <Grid container className="pagination">
+          <Pagination
+            count={calculateCount}
+            variant="outlined"
+            shape="rounded"
+            onChange={(event, value) => {
+              dispatch(updatePageNumber(value));
+            }}
+          />
+        </Grid>
       </Grid>
     </Grid>
   );
