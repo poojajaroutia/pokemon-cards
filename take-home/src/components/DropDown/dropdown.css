@@ -1,0 +1,45 @@
+.dropdown {
+    color: WHITE;
+    margin: 5px !important;
+  }
+  .dropdown-select > div {
+    height: 36px;
+    width: 82px;
+  }
+  .drpdown > div {
+  }
+  .dropdown > div {
+    border: 1px solid #393c49;
+    background-color: #1f1d2b;
+    border-radius: 8px;
+  }
+  .dropdown > div > div {
+    color: WHITE !important;
+  }
+  
+  .dropdown > label {
+    color: WHITE !important;
+    padding-left: 10px;
+  }
+  
+  .dropdown > div > svg {
+    color: WHITE;
+  }
+  .MuiPaper-root {
+    /* border-radius: 8px !important; */
+  }
+  
+  .MuiList-root {
+    background-color: #1f1d2b !important;
+    color: white !important;
+    border-radius: 4px;
+    background-color: white;
+  
+    overflow-y: auto;
+    overflow-x: hidden;
+  
+    outline: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  
