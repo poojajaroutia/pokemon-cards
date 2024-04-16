@@ -1,0 +1,90 @@
+.search-button {
+    width: 175;
+    height: 48;
+    background-color: #252836 !important;
+    border: 1px solid #393c49;
+  }
+  .right-panel {
+    justify-content: flex-end;
+  }
+  .heading-bar-container {
+  }
+  .search-button > div {
+    color: #abbbc2;
+    border-radius: 8px;
+  }
+  .search-button > button {
+    color: #abbbc2;
+  }
+  .search-button > div > input {
+    color: white;
+  }
+  .search-bar-bottom {
+    padding-top: 20px;
+    display: flex;
+  }
+  .search-bar-top {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  }
+  .cart-button {
+    background-color: #ea7c69 !important;
+  }
+  .cart-button > button {
+    color: #abbbc2;
+  }
+  .dropdown-set {
+    justify-content: flex-end;
+  }
+  .heading {
+    color: white;
+    font-weight: 600;
+    font-size: 26px;
+    margin: auto !important;
+    text-align: left;
+    width: max-content;
+    max-width: max-content;
+    height: 30px;
+  }
+  .bottom-heading {
+    font-size: 18px !important;
+  }
+  .cart-button-container {
+    justify-content: flex-end;
+  }
+  
+  @media screen and (max-width: 460px) {
+    .dropdown > label {
+      color: WHITE !important;
+      padding-left: 0px !important;
+    }
+  
+    .dropdown {
+      min-width: 100px !important;
+    }
+    .dropdown-select > div {
+      height: 36px;
+      width: auto !important;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .heading-bar-container {
+      position: relative;
+    }
+    .cart-button-container {
+      position: absolute;
+      right: 22px;
+      top: 24px;
+    }
+    .right-panel {
+      margin-top: 20px !important ;
+      justify-content: center;
+    }
+    .search-button {
+      text-align: left;
+      width: 100% !important;
+    }
+  }
+  
